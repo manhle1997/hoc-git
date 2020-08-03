@@ -1,6 +1,7 @@
 project to learn Git
 
 //git init
+điều đầu 
 //git status
 //git add
 //git commit
@@ -26,3 +27,9 @@ dùng để tạo nhánh mới bắt đầu từ nhánh đang dùng, nếu nhán
 //git checkout <branch> 
 dùng để chuyển qua lại giữa các nhánh
 //git merge
+A <--- B : kéo thay đổi từ branch B sang branch A 
+trong trường hợp này cụ thể ta muốn kéo những thay đổi từ branch feature/hippo-class về master tức là
+master <--- feature/hippo-class
+
+B1: phải checkout về nhánh chính A tức là nhánh master : git checkout master
+B2: kéo nhánh B về nhánh hiện tại tức là nhánh A.: git merge <B> : git merge feature/hippo-class
