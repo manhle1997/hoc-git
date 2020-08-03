@@ -20,3 +20,9 @@ Những file ở staging area sau khi được commit thì sẽ được đưa v
 git checkout cập nhật lại tất cả những thay đổi lại trạng thái lúc trước đó, nhưng file được checkout phải nằm trong vùng working dir
 //git reset
 git reset HEAD <file> là kéo 1 file ở vùng staging area về lại working dir,tìm hiểu thêm cả về git restore --staged <file> cũng có chức năng như của reset nhưng là ở phiên bản mới,
+
+//git checkout -b <branch> (branching)
+dùng để tạo nhánh mới bắt đầu từ nhánh đang dùng, nếu nhánh đấy đã có rồi mà vẫn tạo thì sẽ báo lỗi
+//git checkout <branch> 
+dùng để chuyển qua lại giữa các nhánh
+//git merge
