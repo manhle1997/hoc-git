@@ -33,3 +33,4 @@ master <--- feature/hippo-class
 
 B1: phải checkout về nhánh chính A tức là nhánh master : git checkout master
 B2: kéo nhánh B về nhánh hiện tại tức là nhánh A.: git merge <B> : git merge feature/hippo-class
+//git branch -D <branch> (delete branch)
