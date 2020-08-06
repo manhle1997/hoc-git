@@ -34,3 +34,10 @@ master <--- feature/hippo-class
 B1: phải checkout về nhánh chính A tức là nhánh master : git checkout master
 B2: kéo nhánh B về nhánh hiện tại tức là nhánh A.: git merge <B> : git merge feature/hippo-class
 //git branch -D <branch> (delete branch)
+
+//git reset --soft <ID của branch cha>
+Đưa những file đã commit về trạng thái staging area
+//git reset --mixed
+đưa những file đã commit về trạng thái working directory
+//git reset --hard 
+xoá luôn commit hiện tại
