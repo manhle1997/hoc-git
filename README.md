@@ -41,3 +41,6 @@ B2: kéo nhánh B về nhánh hiện tại tức là nhánh A.: git merge <B> : 
 đưa những file đã commit về trạng thái working directory
 //git reset --hard 
 xoá luôn commit hiện tại
+
+//.gitignore
+khi tạo mới file nhưng không muốn commit file đấy thì tên file sẽ được đặt trong .gitignore. Khi đấy kiểm tra bằng git status sẽ không hiển thị file đấy nữa, khi git add thì cũng sẽ không add file đấy 
