@@ -46,3 +46,5 @@ xoá luôn commit hiện tại
 khi tạo mới file nhưng không muốn commit file đấy thì tên file sẽ được đặt trong .gitignore. Khi đấy kiểm tra bằng git status sẽ không hiển thị file đấy nữa, khi git add thì cũng sẽ không add file đấy 
 
 //Hoc Github
+
+//git config --global credential.helper "cache--timeout=18000"
