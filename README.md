@@ -65,4 +65,7 @@ muốn tải code mới về thù dùng git pull
 //2. git push origin <branch>
 //3. create a pull request on Github
 //4. review code
+	4.1 review code online
+	4.2 fetch branch into local to test ofline (optional)
+	4.3 approve the pull request
 //5. merge to master
