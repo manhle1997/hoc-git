@@ -46,5 +46,16 @@ xoá luôn commit hiện tại
 khi tạo mới file nhưng không muốn commit file đấy thì tên file sẽ được đặt trong .gitignore. Khi đấy kiểm tra bằng git status sẽ không hiển thị file đấy nữa, khi git add thì cũng sẽ không add file đấy 
 
 //Hoc Github
+//git push -u origin master
+Trong trường hợp đẩy code lên lần đầu thì phải dùng "push -u origin master" từ lần sau thì chỉ cần dùng git push
 
 //git config --global credential.helper "cache--timeout=18000"
+Lưu trữ thông tin login của git vào máy tính. Bình thường thì mỗi lần push thì git sẽ hỏi thông tin đăng nhập và mật khẩu, nếu dùng lệnh trên thì sau thời gian timeout(ở đây là 18000s) sẽ hỏi hoặc reset lại máy sẽ hỏi
+
+//git clone
+khi có một người nữa muốn làm chung project thì người ta sẽ clone cái repository về, lúc này người ta sẽ có một repository giống hệt của mình
+//git push
+Khi muốn đẩy code lên thì dùng git push
+//git pull
+muốn tải code mới về thù dùng git pull
+
