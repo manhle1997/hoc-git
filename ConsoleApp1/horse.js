@@ -1,0 +1,1 @@
+//Đây là file horse.js đang nằm trên nhánh feature/horse_class//
