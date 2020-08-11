@@ -59,3 +59,10 @@ Khi muốn đẩy code lên thì dùng git push
 //git pull
 muốn tải code mới về thù dùng git pull
 
+//Pull request
+//1. git checkout -b <feature_branch>
+đã nói ở trên đây là lệnh tạo ra branch mới
+//2. git push origin <branch>
+//3. create a pull request on Github
+//4. review code
+//5. merge to master
