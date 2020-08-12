@@ -72,5 +72,6 @@ muốn tải code mới về thù dùng git pull
 
 
 try to merge 2 branch
+Nếu đang code ở nhánh phụ mà quay lại code ở nhánh chính thì sau khi code xong ở hai nhánh thì khi merge hai nhánh lại thì code sẽ là hợp của cả hai nhánh
 
 
