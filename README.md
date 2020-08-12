@@ -71,3 +71,6 @@ muốn tải code mới về thù dùng git pull
 //5. merge to master
 
 
+try to merge 2 branch
+
+
