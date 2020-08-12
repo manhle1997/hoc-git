@@ -67,11 +67,14 @@ muốn tải code mới về thù dùng git pull
 //4. review code
 	4.1 review code online
 	4.2 fetch branch into local to test ofline (optional)
+	khi quản lí đang ở nhánh chính mà muốn download code của nhánh mình về thì sau khi tạo Pull Request thì dùng lệnh
+	//git fetch origin <branch>
+	nó sẽ tải luôn nhánh phụ của mình về máy của quản lí. và tất nhiên khi đi làm thì mỗi người sẽ quản lí một nhánh.
+	Sau khi kiểm tra và test xong thì máy quản lí có thể remove luôn cái nhánh phụ vừa fetch
 	4.3 approve the pull request
 //5. merge to master
 
 
 try to merge 2 branch
 Nếu đang code ở nhánh phụ mà quay lại code ở nhánh chính thì sau khi code xong ở hai nhánh thì khi merge hai nhánh lại thì code sẽ là hợp của cả hai nhánh
-
 
